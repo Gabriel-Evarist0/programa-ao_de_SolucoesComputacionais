@@ -2,37 +2,23 @@ package Modulo_5;
 import java.util.Scanner;
 
 public class Atividade13M5 {
-
-    public static void chamaTeste(String nome, String sexo, int idade){
-        if (sexo.equalsIgnoreCase("feminino") == true){
-            System.out.println("teste");
-        }
-    }
-
-    public static String imprimi(){
-        Scanner input = new Scanner(System.in);
-        String nome,sexo;
-        int idade;
-        System.out.println("nome:");
-        nome = input.nextLine();
-        System.out.println("Sexo");
-        sexo = input.nextLine();
-        System.out.println("Idade");
-        idade = input.nextInt();
-        return (nome, sexo);
-
-
-    }
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+      int idade,sexo;
+      int var = 0;
 
+        for (int i = 1; i<=10; i++){
+            System.out.println("Digite a idade da " + i +"° pessoa: ");
+            idade = input.nextInt();
+            System.out.println("Digite o sexo da " + i +"° pessoa: ");
+            sexo = input.nextInt();
 
-        while(i<10){
-            imprimi();
+            if (sexo == 2) {
+                if (idade >= 20 && idade <= 40) {
+                    var++;
+                }
+            }
         }
-
-
+        System.out.print("Numero de mulheres entre 20 e 40 anos é de: "+var);
     }
 }

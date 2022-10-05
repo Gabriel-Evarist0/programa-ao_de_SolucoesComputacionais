@@ -9,7 +9,7 @@ public class Atividade9 {
         //Interface
         System.out.println("Este programa identifica o maior e o menor numero dentro de 10 numeros");
         System.out.println("Digite os 10 numeros");
-        //Loopa
+        //Loopas
         for (i = 1; i<=10; i++){
             System.out.println("Digite o " + i + "° numero");
             numero = leInput.nextInt();

@@ -10,7 +10,7 @@ public class Atividade13M5 {
         for (int i = 1; i<=10; i++){
             System.out.println("Digite a idade da " + i +"° pessoa: ");
             idade = input.nextInt();
-            System.out.println("Digite o sexo da " + i +"° pessoa: ");
+            System.out.println("Digite o sexo da " + i +"° pessoa: (1- Masculino / 2- Feminino)");
             sexo = input.nextInt();
 
             if (sexo == 2) {

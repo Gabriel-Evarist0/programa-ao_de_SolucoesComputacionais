@@ -1,7 +1,7 @@
 package Modulo_5;
 import java.util.*;
 
-class Atividade12M5 {
+class Atividade12M5{
 
     public static void achaImpar(int numLimit){
         System.out.println("Numeros Impares até " + numLimit);

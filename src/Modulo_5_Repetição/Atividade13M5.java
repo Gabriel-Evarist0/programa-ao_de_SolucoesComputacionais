@@ -1,4 +1,4 @@
-package Modulo_5;
+package Modulo_5_Repetição;
 import java.util.Scanner;
 
 public class Atividade13M5 {
